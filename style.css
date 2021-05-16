@@ -29,3 +29,22 @@ body {
     align-self: end;
     margin: 0.5em;
 }
+
+label:not(.hilt) {
+    color: white;
+    font-weight: bold;
+    align-self: start;
+}
+
+#onOff {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.hilt {
+    display: block;
+    width: 0.7rem;
+    height: 7rem;
+    background-color: red;
+}
