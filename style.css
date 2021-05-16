@@ -20,3 +20,12 @@ body {
     text-transform: uppercase;
     font-size: 1.5rem;
 }
+
+
+/* The color pickers */
+
+[name="color"] {
+    grid-row: 1 / 2;
+    align-self: end;
+    margin: 0.5em;
+}
