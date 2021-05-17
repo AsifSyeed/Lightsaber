@@ -83,10 +83,22 @@ label:not(.hilt) {
     filter: blur(0.5em);
     opacity: 1;
     animation: pulse linear 5s infinite;
+    z-index: -1;
 }
 
 @keyframes pulse {
     50% {
         opacity: .5;
     }
+}
+
+
+/* Turn on lightsaber */
+
+#onOff:not(checked)+.blade {
+    transform: scaleY(0);
+}
+
+#onOff:checked+.blade {
+    transform: scaleY(1);
 }
