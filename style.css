@@ -151,3 +151,19 @@ label:not(.hilt) {
 #darksaber:checked~.lightsaber .blade::before {
     background: black;
 }
+
+
+/* sound */
+
+embed {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    pointer-events: 0;
+    width: 0;
+    height: 0;
+}
+
+#onOff:checked~embed {
+    display: block;
+}
